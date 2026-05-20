@@ -30,25 +30,14 @@ def glosario_inicial():
         print(f"-> {termino}: {definicion}")
 
 
-# --- TAREA PARA EL ALUMNO ---
-# Instrucciones:
-# 1. Crea una rama 'feature-tu-termino'
-# 2. Crea una función nueva siguiendo el ejemplo de abajo
-# 3. Llámala dentro del bloque 'if __name__ == "__main__":'
+def definicion_glosario():
 
-
-def agregar_definicion_alumno():
-    """
-    EJEMPLO: El alumno debe renombrar esta función y completar su término.
-    """
-    termino = "ORM"  # Reemplazar con el término asignado o elegido
-    definicion = "Object-Relational Mapping. Técnica para convertir datos entre sistemas incompatibles usando OOP."
+    termino = "ORM"
+    definicion = "Object-Relational Mapping. Técnica de programación para convertir datos entre el sistema de objetos de un lenguaje (POO) y una base de datos relacional."
     print(f"[NUEVO] {termino}: {definicion}")
-
 
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
-
-    # El alumno debe agregar la llamada a su función aquí:
-    # agregar_definicion_alumno()
+    
+    definicion_glosario()
